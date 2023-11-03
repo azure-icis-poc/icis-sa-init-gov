@@ -2,9 +2,6 @@ JAVA_OPTS="-Xms100m,-Xmx16G,-XX:MaxRAMFraction=1,-XX:+UseG1GC,-XX:+UnlockDiagnos
 JDK_JAVA_OPTIONS="${JAVA_OPTS} ${JDK_JAVA_OPTIONS}"
 export JDK_JAVA_OPTIONS
 
-export aaa=111
-export bbb=222
-
-cp -rf /app/resources/sa-gov /app/resources
-
+cp -rf /app/resources/sa-gov/e2e-producer.properties /app/resources
+cp -rf /app/resources/sa-gov/e2e-collector.properties /app/resources
 
