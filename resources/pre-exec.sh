@@ -7,3 +7,6 @@ export JDK_JAVA_OPTIONS
 cp -rf /app/resources/sa-gov/e2e-producer.properties /app/resources
 cp -rf /app/resources/sa-gov/e2e-collector.properties /app/resources
 
+cp -rf /app/*.jar /app/icis-app.jar
+java -jar /app/icis-app.jar
+
