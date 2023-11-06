@@ -21,11 +21,7 @@ echo "3. 24by7 Mode..."
 export MODE_24BY7=N
 
 
-# [4. App Copy]----------------------------------------------------------------------#
-echo "4. App Copy..."
-cp -rf /app/*.jar /app/icis-app.jar
-
 
 # [5. App execution]----------------------------------------------------------------------#
 echo "5. App execution"
-java -jar /app/icis-app.jar
+java -jar /app/app.jar
