@@ -22,6 +22,6 @@ export MODE_24BY7=N
 
 
 
-# [5. App execution]----------------------------------------------------------------------#
-echo "5. App execution"
+# [4. App execution]----------------------------------------------------------------------#
+echo "4. App execution"
 java -jar /app/app.jar
