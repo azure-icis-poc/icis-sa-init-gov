@@ -5,7 +5,7 @@
 # [1. JVM Option Set]----------------------------------------------------------------------#
 echo "1. JVM Option Set"
 #export JAVA_OPTS="-XX:+UseG1GC,-XX:+UnlockDiagnosticVMOptions,-XX:InitiatingHeapOccupancyPercent=35,-XX:G1ConcRefinementThreads=20,-Duser.language=ko,-Duser.country=KR"
-export JAVA_OPTS="-XX:+UnlockDiagnosticVMOptions,-XX:InitiatingHeapOccupancyPercent=35,-XX:G1ConcRefinementThreads=20,-Duser.language=ko,-Duser.country=KR"
+export JAVA_OPTS="-Duser.language=ko,-Duser.country=KR"
 export JDK_JAVA_OPTIONS="${JAVA_OPTS}, ${JDK_JAVA_OPTIONS}"
 
 
