@@ -1,5 +1,4 @@
 
-
 #!/bin/sh
 
 
@@ -39,6 +38,9 @@ cp -rf /app/resources/sa-gov/e2e-collector.properties /app/resources
 # truststore.jks
 # log4j2-elastic.xml
 
+
+
+sleep 365d
 
 # [7. App execution]----------------------------------------------------------------------#
 echo "7. App execution"
