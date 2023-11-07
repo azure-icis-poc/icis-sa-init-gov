@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+	<Properties>
+		<Property name="consoleLayout">%m %n</Property>
+	</Properties>
+	<Appenders>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout pattern="${consoleLayout}" />
+		</Console>
+		<Rewrite name="rewrite">
+			<LogRewritePolicy />
+			<AppenderRef ref="console" />
+		</Rewrite>
+	</Appenders>
+	<Loggers>
+		<Logger name="org.springframework" level="WARN"
+			additivity="false">
+			<AppenderRef ref="rewrite" level="WARN" />
+		</Logger>
+		<Logger name="org.apache" level="WARN" additivity="false">
+			<AppenderRef ref="rewrite" level="WARN" />
+		</Logger>
+		<Logger name="com.kt.icis" level="INFO" additivity="false">
+			<AppenderRef ref="rewrite" level="INFO" />
+		</Logger>
+		<Logger additivity="false" level="WARN" name="jdbc.connection">
+			<AppenderRef ref="rewrite" level="WARN" />
+		</Logger>
+		<Logger additivity="false" level="WARN" name="jdbc.audit">
+			<AppenderRef ref="rewrite" level="WARN" />
+		</Logger>
+		<Logger additivity="false" level="WARN" name="jdbc.resultset">
+			<AppenderRef ref="rewrite" level="WARN" />
+		</Logger>
+		<Logger additivity="false" level="WARN" name="jdbc.sqlonly">
+			<AppenderRef ref="rewrite" level="WARN" />
+		</Logger>
+		<Logger additivity="false" level="INFO" name="jdbc.sqltiming">
+			<AppenderRef ref="rewrite" level="INFO" />
+		</Logger>
+		<Logger additivity="false" level="INFO"	name="jdbc.resultsettable">
+			<AppenderRef ref="rewrite" level="INFO" />
+		</Logger>
+		<Root level="WARN">
+			<AppenderRef ref="rewrite" />
+		</Root>
+	</Loggers>
+</Configuration>
