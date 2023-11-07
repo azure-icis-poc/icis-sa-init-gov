@@ -13,6 +13,7 @@ echo "2. resources File Copy..."
 cp -rf /app/resources/sa-gov/e2e-producer.properties /app/resources
 cp -rf /app/resources/sa-gov/e2e-collector.properties /app/resources
 cp -rf /app/resources/sa-gov/truststore.jks /app/resources
+cp -rf /app/resources/sa-gov/log4j2-elastic.xml /app/resources
 
 
 # [3. 24by7 Mode]----------------------------------------------------------------------#
