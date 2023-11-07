@@ -13,6 +13,8 @@ export JDK_JAVA_OPTIONS="${JAVA_OPTS}, ${JAVA_TOOL_OPTIONS}, ${JDK_JAVA_OPTIONS}
 echo "2. resources File Copy..."
 cp -rf /app/resources/sa-gov/e2e-producer.properties /app/resources
 cp -rf /app/resources/sa-gov/e2e-collector.properties /app/resources
+# truststore.jks
+# log4j2-elastic.xml
 
 
 
