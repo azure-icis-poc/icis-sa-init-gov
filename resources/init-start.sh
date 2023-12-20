@@ -7,4 +7,4 @@ cp -r /sa-gov-resource/e2e-producer.properties /sa-gov
 cp -r /sa-gov-resource/e2e-collector.properties /sa-gov
 cp -r /sa-gov-resource/truststore.jks /sa-gov
 cp -r /sa-gov-resource/start.sh /sa-gov
-cp -r /sa-gov-resource/$P_DOMAIN/$P_PRJ_NM/* /sa-gov
+
