@@ -2,8 +2,10 @@
 
 
 # [1. Git Clone, Full % Copy]----------------------------------------------------------------------#
-echo "1. Git Clone"
+echo "sa Git Clone"
 git clone https://82258624:Bz-rzP-3YZJFRzU4hNxk@gitlab.dspace.kt.co.kr/icis/sa/icis-sa-init-gov
+
+echo "oder Git Clone"
 git clone https://82258624:Bz-rzP-3YZJFRzU4hNxk@gitlab.dspace.kt.co.kr/icis/sa/icis-oder-init-gov
 
 
